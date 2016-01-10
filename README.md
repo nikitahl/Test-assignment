@@ -6,3 +6,5 @@
 * Bootstrap framework
 * "Read More" on plain Javascript
 * "Comment" on jQuery
+
+http://nikitahl.github.io/Test-assignment/
