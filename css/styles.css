@@ -1,0 +1,100 @@
+/*
+  Base styles
+************************************************************/
+
+html {
+  font-size: 10px;
+}
+
+/*
+  Main styles
+************************************************************/
+
+.wrap {
+  background-color: #082e3c;
+  padding: 40px 0;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.article-wrap {
+  background-color: #fff;
+  padding: 30px 70px;
+  font-size: 1.6rem;
+}
+
+.article-heading {
+  margin-bottom: 30px;
+}
+
+.article-comment-btn,
+.comment-section .btn {
+  background-color: #fff;
+  border: 2px solid #4bc7c7;
+  color: #4bc7c7;
+  margin: 20px 0 40px;
+  padding: 15px 50px;
+  transition: background-color .3s, color .3s;
+}
+
+.article-comment-btn:hover,
+.comment-section .btn:hover {
+  background-color: #4bc7c7;
+  color: #fff;
+}
+
+.article-share-link:hover {
+  text-decoration: none;
+}
+
+.article-share-icon {
+  vertical-align: baseline;
+}
+
+.show-excerpt {
+  display: inline;
+}
+
+.read-more {
+  color: #ea6060;
+}
+
+.read-more:hover,
+.read-more:active,
+.read-more:visited {
+  color: #ea6060;
+}
+
+.comment-section {
+  display: none;
+  margin-bottom: 30px;
+}
+
+.comment-section .article-comment-area,
+.comment-section .btn {
+  border-radius: 0;
+}
+
+/*
+  Media Queries
+************************************************************/
+
+@media (max-width: 992px) {
+
+  .wrap {
+    min-height: 100vh;
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  .article-comment-btn,
+  .comment-section .btn {
+    display: block;
+    width: 100%;
+  }
+
+}
